@@ -15,7 +15,8 @@ build-type:          Simple
 -- extra-source-files:
 cabal-version:       >=1.10
 
-library
+executable hello
+  main-is:             Main.hs
   other-modules:
     Primes
     Export

@@ -1,2 +1,3 @@
 cabalvm clean
-cabalvm build
+rm java/hello.jar | true
+cabalvm install --bindir=java
