@@ -1,0 +1,2 @@
+cabalvm clean
+cabalvm build
