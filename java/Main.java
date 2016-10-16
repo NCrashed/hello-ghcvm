@@ -2,6 +2,7 @@ import ghcvm.runtime.Rts;
 import ghcvm.runtime.RtsConfig;
 
 import hello.Export;
+import ghczmprim.ghc.Types;
 
 public class Main {
     public static void main(String[] args) {
