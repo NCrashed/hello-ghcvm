@@ -11,7 +11,7 @@ public class Main {
 
         long startTime = System.currentTimeMillis();
 
-        String v = export.sayHello("NCrashed");
+        String v = Integer.toString(export.constAnswer());
 
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
