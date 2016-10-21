@@ -7,7 +7,15 @@ import ghczmprim.ghc.Types;
 public class Main {
     public static void main(String[] args) {
         Rts.hsInit(new String[0], RtsConfig.getDefault());
-        String v = Integer.toString(new Export().takePrime(100));
+        Export export = new Export();
+
+        long startTime = System.currentTimeMillis();
+
+        String v = export.sayHello("NCrashed");
+
+        long stopTime = System.currentTimeMillis();
+        long elapsedTime = stopTime - startTime;
         System.out.println(v);
+        System.out.println(elapsedTime);
     }
 }
